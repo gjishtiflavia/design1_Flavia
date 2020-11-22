@@ -7,5 +7,6 @@ body {
 
 h1{
   font font-family: "Parisienne,cursive";
-  font-size: 100px;
+  font-size: 200px;
+  font-variant-position: super;
 }
