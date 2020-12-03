@@ -1,1 +1,0 @@
-# Manifesto_002
