@@ -7,7 +7,16 @@
 </head>
 <style>
     body{
-        background-image: url(spiralja.png);
+        background-image: url(spiralja.png); usemap="#workmap">
+        <map name="workmap">
+        <area shape="rect" coords="34, 44, 270, 350" href="computer.html"> onclick="myFunction()">
+        </map>
+        <script>
+        function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+
         background-size: cover;
         background-attachment: fixed;
         }
