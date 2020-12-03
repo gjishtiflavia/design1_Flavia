@@ -13,10 +13,29 @@
         }
 
   }
-<img src="spiralja.png" alt="spiralja" width:1584 height:741 usemap="#spiralja">
+<img src="spiralja.png" alt="spiralja" usemap="#spiraljamap">
 
-<map name="spiralja">
-  <area shape="circle" coords="33,33,81" href="spiralja.htm">
+<map name="spiraljamap">
+  <area shape="circle" coords="33,33,81" alt="spiralja" href="spiral.htm"> onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the circle!");
+}
+
+</script>
+
+  <map name="workmap">
+  <area shape="circle" coords="33,30,44" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+
 </map>
 
 <i class="fab fa-sketch"></i>
