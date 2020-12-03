@@ -1,5 +1,6 @@
 body{
-  background-color:blue;
+  background-image:url(../images/marble.jpg);
+  background-size: cover;
 }
 h1{
   color:white;
