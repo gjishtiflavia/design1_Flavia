@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    font-family: 'Maven Pro';
+    background: #ff9595;
+    font-family: Maven Pro;
 }
 h1 {
     font-family: 'Maven Pro', cursive;
@@ -10,36 +10,36 @@ h1 {
 p {
 	font-family: 'Maven Pro ', cursive;
 	font-size: 1.2em;
-	color: #black;
+	color: #ff9595;
 }
 
 h2 {
    font-family: 'Maven Pro', cursive;
    font-size: 1.5em;
-   color:#000000;
+   color:#ffffff;
 }
 h3 {
    font-family: 'Maven Pro',cursive;
    font-size: 1.5em;
-   color: #000000;
+   color: #ffffff;
 }
 h4 {
    font-family: 'Maven Pro',cursive;
    font-size: 1.5em;
-   color: #000000;
+   color: #ffffff;
 }
 a {
     color: #ff9595;
   }
 #header {
- 	 background-color:black;
+ 	 background-color: #e1e1e1;
  	 width: 100%;
  	 color: #ffffff;
  	 position:fixed;
  	 z-index:100;
  	 }
 #footer {
-   background-color: white;
+   background-color: red;
    width: 90%;
    height:auto;
    padding:5%,
